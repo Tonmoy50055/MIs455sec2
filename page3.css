@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color:aliceblue;
+margin:0;
+}
+h1{
+font-family: fantasy;
+font-size: 50px;
+text-align: center;
+height:60px;
+text-decoration: underline;
+
+}
+.zero{
+    text-align: center;
+    
+}
+.zero h2{
+    margin:5px 5px;
+}
+.zero p{
+    margin:5px 5px;
+}
+.First{
+    display:flex;
+   flex-direction: row;
+    margin-top:10px;
+    gap:30px;
+    justify-content:center;
+
+
+}
+#Second{
+width:300px;
+
+}
+
+
+
+#Third{
+    width:300px;
+  text-align: right;
+}

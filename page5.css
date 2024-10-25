@@ -1,0 +1,32 @@
+body{
+    background: wheat;
+ text-align:center;
+ margin:0;
+}
+div{
+
+background-image: url("C:/Users/HP/Downloads/dark-souls-think.gif");
+height:80vh;
+background-size:100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+padding:auto 0;
+}
+ h2{
+    position: absolute; 
+    top: 40%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Offset the element back by half its width and height */
+    color: black;
+    font-family: fantasy;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center; /* Center the text itself */
+
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+   border-radius: 50%;
+}
