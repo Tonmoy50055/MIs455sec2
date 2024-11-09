@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+#Header{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    padding:25px 80x 0px 80px;
+    background-color:rgb(250, 244, 244);
+    
+    font-family:'Courier New', Courier, monospace;
+    background-size: cover;
+    margin-top:0px;
+    margin-bottom:0;}
+nav{
+    margin:0;
+    padding:0;
+    
+    }
+    ul{
+    
+    display:flex;
+    justify-content: space-around;
+    
+    margin-right:20px;}
+    ul li{
+    list-style: none;
+        padding:0px  25px;
+    position:relative;
+    font-family: 'Courier New', Courier, monospace;
+    font:bold;
+    }
+    
+    a{
+    font-size:16px;
+    text-decoration: none;
+    font-weight: 600;
+    color:#1a1a1a;
+    transition:0.2s ease;
+    font-family: "Hubot Sans", sans-serif;;
+    }
+    a:hover,a.active{
+    color: #7a8a8a;
+    }
+    
+    a.active::after,
+    a:hover::after{
+    content:"";
+    width:30%;
+    height: 2px;
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+    background-color:#7a8a8a ;
+    }
+#contactpage {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+#contactpage h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contactpage p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+    display:flex;
+    align-items: flex-start;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #005f8e;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+     padding: 20px 0; 
+    text-align: center;
+    font-size: 14px;
+    margin:0;
+}
+
+#footer1 h1{
+    font-family:'Courier New', Courier, monospace;
+font-size:30px;
+
+margin-bottom:40px;
+
+}
+#footer1 h4{
+    font-size: 20px;
+    margin-bottom:20px;
+}

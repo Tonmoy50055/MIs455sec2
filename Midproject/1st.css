@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+}
+
+
+#Header{
+display:flex;
+text-align: center;
+justify-content: space-between;
+padding:25px 80x 0px 80px;
+background-color:rgb(250, 244, 244);
+
+font-family:'Courier New', Courier, monospace;
+background-size: cover;
+margin-top:0px;
+margin-bottom:0;
+
+}
+
+nav{
+margin:0;
+padding:0;
+
+}
+ul{
+
+display:flex;
+justify-content: space-around;
+
+margin-right:20px;}
+ul li{
+list-style: none;
+    padding:0px  25px;
+position:relative;
+font-family: 'Courier New', Courier, monospace;
+font:bold;
+}
+
+a{
+font-size:16px;
+text-decoration: none;
+font-weight: 600;
+color:#1a1a1a;
+transition:0.2s ease;
+font-family: "Hubot Sans", sans-serif;
+}
+a:hover,a.active{
+color: #7a8a8a;
+}
+
+a.active::after,
+a:hover::after{
+content:"";
+width:30%;
+height: 2px;
+position:absolute;
+bottom:-4px;
+left:20px;
+background-color:#7a8a8a ;
+
+}
+#details{
+font-family: monospace;
+    background:#e7e9e9;
+padding:0 80px;
+background-size: cover;
+height:90vh;
+width:100%;
+background-repeat: no-repeat;
+background-position:top 0 right 70% ;
+margin:0;
+display:flex;
+align-items: flex-start;
+flex-direction: column;
+background-image: url('ai-generated-ai-generative-winter-snowball-snowflakes-snow-man-snowman-christmas-new-year-xmas-background-mock-up-graphic-art-photo.jpg');
+justify-content: center;
+}
+ #details h4{
+    padding-bottom:15px;
+    margin:0;
+    font-size:20px;
+ }
+#details h1{
+ margin:0;
+ color:#008178;
+}
+#details p{
+    font-size: 20px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+     padding: 20px 0; 
+    text-align: center;
+    font-size: 14px;
+    margin:0;
+}
+
+#footer1 h1{
+    font-family:'Courier New', Courier, monospace;
+font-size:30px;
+
+margin-bottom:40px;
+
+}
+#footer1 h4{
+    font-size: 20px;
+    margin-bottom:20px;
+}
