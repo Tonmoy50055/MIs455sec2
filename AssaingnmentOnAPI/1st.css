@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-dark{
+    background-color: aqua ;
+}
+
+
+#countryInput {
+    border-radius: 10px;
+}
+
+.country-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;                            /* we use country-card as  class in innerHtml */
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.country-card img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    
+}
+
+
+.modal-content {
+    border-radius: 10px;
+}
